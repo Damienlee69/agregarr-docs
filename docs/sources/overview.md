@@ -158,7 +158,7 @@ Both support:
 - Custom time period
 - Minimum play count filter
 
-Create Collections such as "Most Popular this Year on {servername}"
+Create collections such as "Most Popular this Year on [Your Server Name]"
 
 ### Overseerr
 
