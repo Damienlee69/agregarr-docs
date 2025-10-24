@@ -17,7 +17,7 @@ Yes, completely free and open source (GPL-3.0).
 
 **Do I need Plex Pass?**
 
-Yes, you need Plex Pass to create Collections.
+Yes, you need Plex Pass to fully utilise Agregarr. Without Plex Pass, you can create collections but they will only be visible on the Collections and Library Tab.
 
 ## Setup
 
@@ -41,7 +41,7 @@ Your config persists in the volume.
 
 **How many collections can I create?**
 
-No hard limit, just be mindful of too many Collection on the Home screen as this can require users to scroll too far before reaching the next Library.
+No limit, just be mindful of too many Collection on the Home screen as this can require users to scroll too far before reaching the next Library.
 
 **Can I reorder collections?**
 
@@ -53,11 +53,7 @@ Default is 12 hours. Customizable globally or per-collection.
 
 ## Downloads
 
-**Does Agregarr download content directly?**
-
-No, it creates requests in Radarr/Sonarr/Overseerr which handle the actual downloading.
-
-**Can I preview before downloading?**
+**Can I preview which items are missing before downloading?**
 
 Yes, use the Preview button when creating collections.
 

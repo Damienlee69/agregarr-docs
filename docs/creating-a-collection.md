@@ -20,7 +20,7 @@ Let's create a TMDB Trending collection as an example.
 
 Choose a preset name like "Trending Today" or enter your own.
 
-:::tip
+:::note Tip
 If you name collections the same in both Movies and TV libraries, Plex will link them together when viewing.
 :::
 

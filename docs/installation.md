@@ -23,7 +23,7 @@ services:
     restart: unless-stopped
 ```
 
-:::danger
+:::note Important
 Change `/path/to/config` to your actual config directory, otherwise your settings won't persist after restarts!
 
 Examples:
@@ -72,7 +72,3 @@ docker pull agregarr/agregarr:latest
 ```
 
 Your settings/database persist in the config volume, so updates are safe.
-
-## Next Steps
-
-Once Agregarr is running, continue to [Initial Setup](./setup.md) to connect your Plex server and configure sources.

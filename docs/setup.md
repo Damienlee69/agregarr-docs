@@ -84,7 +84,3 @@ Once setup is complete:
 3. Agregarr will scan your Plex library
 
 This finds all existing collections and default Plex hubs (Recently Added, Continue Watching, etc.) so Agregarr can manage them alongside new collections.
-
-## Next Steps
-
-Now you're ready to [create your first collection](./creating-a-collection.md)!

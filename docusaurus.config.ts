@@ -47,13 +47,26 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {name: 'keywords', content: 'plex, collections, plex collections, automation, radarr, sonarr, trakt, imdb, tmdb, plex manager, agregarr, arr apps'},
+      {name: 'description', content: 'Agregarr - Effortless Plex Collections Management. Automate your Plex collections from Trakt, IMDb, TMDb, Letterboxd, and more. Integrates with Radarr and Sonarr.'},
+      {name: 'og:title', content: 'Agregarr - Plex Collections Manager'},
+      {name: 'og:description', content: 'Automate your Plex collections from multiple sources. Integrates with Radarr, Sonarr, and popular list services.'},
+      {name: 'og:type', content: 'website'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+    ],
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: true,
@@ -93,6 +106,12 @@ const config: Config = {
           href: 'https://discord.gg/RfEPPRQJQ2',
           label: 'Discord',
           position: 'right',
+        },
+        {
+          href: 'https://www.buymeacoffee.com/agregarr',
+          label: '☕ Buy Me a Coffee',
+          position: 'right',
+          className: 'header-coffee-link',
         },
       ],
     },

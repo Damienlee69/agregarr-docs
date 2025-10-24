@@ -62,3 +62,22 @@ pre code * {
 .token {
   color: #fb923c !important;
 }
+
+/* Buy Me a Coffee link styling */
+.header-coffee-link {
+  background: transparent !important;
+  color: #f97316 !important;
+  font-weight: 600 !important;
+  padding: 6px 12px !important;
+  border: 2px solid #f97316 !important;
+  border-radius: 6px !important;
+  transition: all 0.2s ease !important;
+  margin-left: 8px !important;
+}
+
+.header-coffee-link:hover {
+  background: rgba(249, 115, 22, 0.1) !important;
+  color: #fb923c !important;
+  border-color: #fb923c !important;
+  text-decoration: none !important;
+}
