@@ -4,20 +4,149 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 2rem 0 2rem;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(180deg, #1c1917 0%, #292524 100%);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroLogo {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.heroTagline {
+  font-size: 1.5rem;
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.buttonSecondary {
+  background-color: transparent;
+  border: 2px solid #f97316;
+  color: #f97316;
+}
+
+.buttonSecondary:hover {
+  background-color: #f97316;
+  color: #1c1917;
+}
+
+.githubStats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.githubStats img {
+  transform: scale(1.15);
+  margin: 0 0.25rem;
+}
+
+.quickStart {
+  padding: 2rem 0 4rem;
+  background-color: #1c1917;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f1f5f9;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin-bottom: 2rem;
+}
+
+.codeBlock {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  background-color: #292524;
+  border-radius: 8px;
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+
+.codeBlock pre {
+  margin: 0;
+  background-color: transparent;
+}
+
+.codeBlock code {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #fb923c;
+}
+
+.quickStartLinks {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.quickStartLinks a {
+  color: #f97316;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.quickStartLinks a:hover {
+  color: #fb923c;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 1.5rem 1rem 1.5rem;
+  }
+
+  .heroLogo {
+    max-width: 220px;
+  }
+
+  .heroTagline {
+    font-size: 1.1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .githubStats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .codeBlock {
+    padding: 1rem;
+  }
+
+  .codeBlock code {
+    font-size: 0.8rem;
+  }
 }

@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Agregarr',
+  tagline: 'Effortless Plex Collection Management',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -14,16 +14,13 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://agregarr.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'agregarr',
+  projectName: 'agregarr',
 
   onBrokenLinks: 'throw',
 
@@ -44,23 +41,9 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/agregarr/agregarr-docs',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -72,25 +55,43 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Agregarr',
+        src: 'img/os_icon.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'setupSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Setup',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          type: 'docSidebar',
+          sidebarId: 'docsSidebar',
+          position: 'left',
+          label: 'Documentation',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'faqSidebar',
+          position: 'left',
+          label: 'F.A.Q',
+        },
+        {
+          href: 'https://github.com/agregarr/agregarr',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://discord.gg/RfEPPRQJQ2',
+          label: 'Discord',
           position: 'right',
         },
       ],
@@ -99,50 +100,71 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Setup',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Installation',
+              to: '/docs/installation',
+            },
+            {
+              label: 'Initial Setup',
+              to: '/docs/setup',
+            },
+            {
+              label: 'First Collection',
+              to: '/docs/creating-a-collection',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Documentation',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Collection Sources',
+              to: '/docs/sources/overview',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Downloads & Integration',
+              to: '/docs/downloads/overview',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Help & Support',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'F.A.Q',
+              to: '/docs/faq',
             },
+            {
+              label: 'Discord Community',
+              href: 'https://discord.gg/RfEPPRQJQ2',
+            },
+          ],
+        },
+        {
+          title: 'Resources',
+          items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/agregarr/agregarr',
+            },
+            {
+              label: 'Docker Hub',
+              href: 'https://hub.docker.com/r/agregarr/agregarr',
+            },
+            {
+              label: 'Report Issues',
+              href: 'https://github.com/agregarr/agregarr/issues',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Agregarr. Built with Docusaurus.`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.vsLight,
+      darkTheme: prismThemes.vsDark,
     },
   } satisfies Preset.ThemeConfig,
 };
