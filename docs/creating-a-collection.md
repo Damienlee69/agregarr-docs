@@ -5,20 +5,20 @@ title: Creating Your First Collection
 
 # Creating Your First Collection
 
-Let's create a TMDB Trending collection as an example.
+Now you can create your first Agregarr Collection
 
 ## Basic Setup
 
-1. Click **+ Add Collection**
-2. **Collection Type**: Select TMDB Lists
-3. **Sub-Type**: Select Trending Today
-4. **Libraries**: Select your Movies and/or TV libraries
+1. Click **+ Add Collection** to start creating a new collection
+2. **Collection Type**: Choose the source for your collection (e.g., TMDB Lists, Trakt Lists, Custom Lists)
+3. **Sub-Type**: Select the specific type of collection from your chosen source
+4. **Libraries**: Select which Plex libraries this collection should appear in (Movies and/or TV)
 
 ## Collection Settings
 
 ### Title
 
-Choose a preset name like "Trending Today" or enter your own.
+Give your collection a name. Some collection types offer preset names, or you can enter your own custom title.
 
 :::note Tip
 If you name collections the same in both Movies and TV libraries, Plex will link them together when viewing.
@@ -27,14 +27,19 @@ If you name collections the same in both Movies and TV libraries, Plex will link
 ### Visibility
 
 Choose where the collection appears:
-- **Home** - Main Plex Home screen
-- **Recommended** - Recommended tab (if users haven't pinned your Library to their Home screen, this is the main section they will see when they view your Library)
+- **Users Home** - Main Plex Home screen for users (other than server owner)
+- **Sever Owner Home** - Main Plex Home screen for Plex server owner
+- **Recommended** - Library Recommended tab (if users haven't pinned your Library to their Home screen, this is the main section they will see when they view your Library)
 
 Collections will always be visible in the Library and Collections Tabs.
 
+:::note Warning
+You need Plex Pass to promote Collections to the Home/Recommended screens
+:::
+
 ### Max Items
 
-How many items to show. Agregarr will fill the collection to this number even if you don't have all items yet. If new items get added, filled items will be removed on the next sync.
+How many items to show. Agregarr will try to fill the collection to this number from items further down the list. If new items get added, filled items will be removed on the next sync.
 
 ### Unwatched Only
 
@@ -46,7 +51,7 @@ Each user viewing the collection sees their own unwatched items.
 
 ### Posters
 
-- **Auto-Poster**: Generate from a poster template (create templates in Posters oage or use Agregarr default)
+- **Auto-Poster**: Generate from a poster template (create templates in Posters page or use Agregarr default)
 - **Upload Custom**: Upload your own poster
 
 ### Time Restrictions
@@ -62,7 +67,7 @@ When inactive, choose to either remove the collection entirely or just change it
 
 This overrides the main sync schedule (default 12 hours), if you want the collection to be synced more or less frequently.
 
-To configure the sync schedule from the defualt 12 hours, got to Settings → Jobs.
+To configure the main sync schedule from the defualt 12 hours, got to Settings → Jobs.
 
 ## Download Settings
 

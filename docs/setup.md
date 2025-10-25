@@ -15,7 +15,7 @@ Open Agregarr at `http://localhost:7171`
 2. Log in with your Plex account
 3. Authorize Agregarr
 
-You need to use the Plex account that owns your server. Managed users won't work.
+You need to use the Plex account that owns your server.
 
 ## Select Your Plex Server
 
@@ -41,7 +41,7 @@ Some sources work immediately, others need API keys. You can skip this and add t
 
 See the [Collection Sources](/docs/sources/overview) page for detailed setup instructions for:
 
-- Trakt (OAuth required)
+- Trakt
 - MDBList
 - MyAnimeList
 - Tautulli
@@ -72,8 +72,6 @@ Both download methods have options to differentiate which source the item is bei
 |Single|Aggregarr|agregarr|
 |Per-Source|IMDbAgregarr|imdb-agregarr|
 |Per-Collection|IMDbTop250Agregarr|imdb-top-250-agregarr|
-
-Per-Source is recommended - lets you track which source is requesting content without being too granular.
 
 ## Run Discover Existing Collections & Hubs
 

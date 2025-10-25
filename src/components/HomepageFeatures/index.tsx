@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
       <>
         Automatically
         monitor and download missing items from your collections, ensuring your
-        library stays complete. Use either Radarr/Sonarr or Overseerr requests.
+        library stays fresh. Use either Radarr/Sonarr or Overseerr requests.
       </>
     ),
   },
@@ -36,8 +36,7 @@ const FeatureList: FeatureItem[] = [
     icon: '',
     description: (
       <>
-        Clean, intuitive UI. Easily create,
-        manage, and monitor all your collections from a single dashboard. Docker-ready
+        Clean, intuitive UI. Easily create and manage all your collections in just a few clicks. Docker-ready
         for quick deployment on any platform.
       </>
     ),
@@ -62,12 +61,6 @@ export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
       <div className="container">
-        <Heading as="h2" className={styles.featuresTitle}>
-          Why Choose Agregarr?
-        </Heading>
-        <p className={styles.featuresSubtitle}>
-          The easiest way to create and manage Plex Collections
-        </p>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

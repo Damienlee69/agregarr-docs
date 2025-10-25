@@ -23,7 +23,7 @@ You can add multiple Radarr/Sonarr instances.
 
 Already configured if you set it up in Sources.
 
-## Tagging Strategy
+## Source Identification
 
 Choose how downloads are indentified
 
@@ -32,8 +32,6 @@ Choose how downloads are indentified
 |Single|Aggregarr|agregarr|
 |Per-Source|IMDbAgregarr|imdb-agregarr|
 |Per-Collection|IMDbTop250Agregarr|imdb-top-250-agregarr|
-
-**Recommended**: Per-Source - tracks which source is requesting without being too granular.
 
 ## Collection Download Settings
 

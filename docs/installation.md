@@ -5,7 +5,7 @@ title: Installation
 
 # Installation
 
-Agregarr runs in Docker. You'll need Docker installed and a running Plex Media Server.
+Agregarr runs in Docker. You'll need Docker installed and a running Plex Media Server. Plex Pass is required to promote Collections to the Home screen.
 
 ## Docker Compose (Recommended)
 
@@ -71,4 +71,4 @@ docker pull agregarr/agregarr:latest
 # Run the docker run command again
 ```
 
-Your settings/database persist in the config volume, so updates are safe.
+Your settings/database persist in the config volume. If after restart Agregarr is reset, it is because your volume is not mounted correctly.

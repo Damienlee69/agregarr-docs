@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Agregarr',
-  tagline: 'Effortless Plex Collection Management',
+  tagline: 'The easiest way to create and manage Plex Collections',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -38,10 +38,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/agregarr/agregarr-docs',
+            'https://github.com/agregarr/agregarr-docs/tree/latest',
         },
         blog: false,
         theme: {
@@ -54,6 +52,24 @@ const config: Config = {
           filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en"],
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: '/docs',
+        searchBarShortcutHint: false,
+        explicitSearchResultPath: true,
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 150,
+        highlightSearchTermsOnTargetPage: true,
+      },
     ],
   ],
 
@@ -96,6 +112,10 @@ const config: Config = {
           sidebarId: 'faqSidebar',
           position: 'left',
           label: 'F.A.Q',
+        },
+        {
+          type: 'search',
+          position: 'right',
         },
         {
           href: 'https://github.com/agregarr/agregarr',

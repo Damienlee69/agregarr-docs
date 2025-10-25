@@ -10,6 +10,7 @@ title: FAQ
 **What is Agregarr?**
 
 A Plex Collections Manager that automatically creates and syncs collections from sources like Trakt, IMDb, TMDb, and more.
+It also allows full control of visibility and order on the Plex Home screen, helping you create a more dynamic feel much like streaming services.
 
 **Is it free?**
 
@@ -35,7 +36,7 @@ No, Plex only.
 docker-compose down && docker-compose pull && docker-compose up -d
 ```
 
-Your config persists in the volume.
+Your config persists in the volume. If agregarr gets refreshed to its intial setup state after you restart, it is because your volume is not set correctly.
 
 ## Collections
 

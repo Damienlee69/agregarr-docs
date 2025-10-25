@@ -199,7 +199,7 @@ Create TV show collections based on Sonarr tags.
 
 Creates a Plex collection from all TV shows with that specific tag in Sonarr.
 
-## Advanced: Multi-Source Collections
+## Multi-Source Collections
 
 Combine multiple sources into a single collection.
 
