@@ -74,7 +74,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo_stacked.svg',
     metadata: [
       {name: 'keywords', content: 'plex, collections, plex collections, automation, radarr, sonarr, trakt, imdb, tmdb, plex manager, agregarr, arr apps'},
       {name: 'description', content: 'Agregarr - Effortless Plex Collections Management. Automate your Plex collections from Trakt, IMDb, TMDb, Letterboxd, and more. Integrates with Radarr and Sonarr.'},

@@ -38,6 +38,30 @@ docker-compose down && docker-compose pull && docker-compose up -d
 
 Your config persists in the volume. If agregarr gets refreshed to its intial setup state after you restart, it is because your volume is not set correctly.
 
+**How can I setup for multiple Plex servers?**
+
+Add a new instance to your docker-compose, and change the port for the new instance
+
+```yaml
+services:
+  agregarr:
+    image: agregarr/agregarr:latest
+    container_name: agregarr
+    volumes:
+      - /path/to/config1:/app/config
+    ports:
+      - 7171:7171
+    restart: unless-stopped
+  agregarr:
+    image: agregarr/agregarr:latest
+    container_name: agregarr
+    volumes:
+      - /path/to/config2:/app/config
+    ports:
+      - 7172:7171
+    restart: unless-stopped
+```
+
 ## Collections
 
 **How many collections can I create?**
