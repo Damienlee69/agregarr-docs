@@ -30,23 +30,23 @@ Agregarr is web-gui based while Kometa is yaml based. Agregarr is solely focused
 
 You need separate Agregarr instances for each server.
 
-Add a new instance to your docker-compose, and change the port and config path for the new instance
+Add a new instance to your docker-compose, and change the name, container port and config path for the new instance
 
 ```yaml
 services:
-  agregarr:
+  agregarr1:
     image: agregarr/agregarr:latest
-    container_name: agregarr
+    container_name: agregarrexample1
     volumes:
-      - /path/to/config1:/app/config
+      - /path/to/config1:/app/config   ### change this
     ports:
       - 7171:7171
     restart: unless-stopped
-  agregarr:
+  agregarr2:
     image: agregarr/agregarr:latest
-    container_name: agregarr
+    container_name: agregarrexample2
     volumes:
-      - /path/to/config2:/app/config
+      - /path/to/config2:/app/config   ### change this
     ports:
       - 7172:7171
     restart: unless-stopped
