@@ -1,65 +1,41 @@
 ---
 sidebar_position: 1
-title: Downloads & Integration
+title: Download Automation Overview
 ---
 
-# Downloads & Integration
+# Download Automation Overview
 
-Agregarr can automatically download missing items from collections via Radarr, Sonarr, or Overseerr.
+Agregarr can grab items that exist in the source list but not in your Plex server. Pick the mode that works best for each collection.
 
-## Setup
+| Mode | Info |
+| --- | --- |
+| Radarr/Sonarr (Direct) | Sends straight to Radarr/Sonarr using your chosen profile, root folder, and tags. | 
+| Overseerr Requests | Creates Overseerr requests (with optional auto-approval) | 
 
-### Radarr/Sonarr
+Enable either or all. Choose the mode per collection. If you want to select individual items only, use the Preview Collections feature to add individual items manually to either service.
 
-1. Go to Settings → Downloads
-2. Click Add Radarr (or Add Sonarr)
-3. Enter URL (e.g., `http://192.168.0.236:7878`)
-4. Enter API key (from Radarr/Sonarr Settings → General)
-5. Test and save
+## Collection-Level Controls
 
-You can add multiple Radarr/Sonarr instances.
+Each collection’s **Grab Missing Items** section includes these filters:
 
-### Overseerr
+- Position limit – only grab the first N items in the source list.
+- Minimum release year – drop older titles.
+- Excluded genres and countries – block specific content (uses TMDB values).
+- Maximum seasons – skip long-running shows.
+- Seasons per show – limit how many seasons are grabbed.
+- Download method – Radarr/Sonarr or Overseerr per collection.
+- Server/profile/root folder – choose the Radarr/Sonarr server and settings to use.
+- Auto-approve (Overseerr) – allow requests to start immediately without manual approval.
 
-Already configured if you set it up in Sources.
 
 ## Source Identification
 
-Choose how downloads are indentified
+Agregarr can tag downloads and Overseerr requests so you know where they came from:
 
-|Setting|Overseerr user|Radarr/Sonarr tag|
-|-------|------|------|
-|Single|Aggregarr|agregarr|
-|Per-Source|IMDbAgregarr|imdb-agregarr|
-|Per-Collection|IMDbTop250Agregarr|imdb-top-250-agregarr|
+| Mode | Overseerr user | Radarr/Sonarr tag |
+| --- | --- | --- |
+| Single | `Agregarr` | `agregarr` |
+| Per Source | `IMDbAgregarr`, `TraktAgregarr`, etc | `imdb-agregarr`, `trakt-agregarr`, etc|
+| Per Collection | `IMDbTop250Agregarr`, `TraktTrendingAgregarr`, etc| `imdb-top-250-agregarr`, `trakt-trending-agregarr`, etc|
 
-## Collection Download Settings
-
-When creating a collection:
-
-### Enable Downloads
-
-Toggle "Grab Missing Items" on/off
-
-### Filters
-
-**Position Limit**: Only download top 5-10 items (prevents downloading entire lists)
-
-**Release Year**: Only downloads items with release dates newer than this year
-
-**Season Count** (TV): Excludes TV shows with more than this many seasons
-
-**Genre**: Exclude items that match any selected genre
-
-**Country**: Excludes items that match any selected origin country
-
-### Download Method
-
-**Radarr/Sonarr**:
-- Choose server (if multiple)
-- Select quality profile
-- Select root folder
-
-**Overseerr**:
-- Auto-approve: Yes/No
-- Uses Overseerr request workflow
+Pick one in **Settings → Downloads → Source identification**.

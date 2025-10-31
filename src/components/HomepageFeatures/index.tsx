@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     icon: '',
     description: (
       <>
-        Create and manage Plex collections automatically from multiple sources including
+        Create and manage Plex collections from multiple sources including
         Trakt, IMDb, Letterboxd and MDBList.
       </>
     ),
@@ -25,8 +25,7 @@ const FeatureList: FeatureItem[] = [
     icon: '',
     description: (
       <>
-        Automatically
-        monitor and download missing items from your collections, ensuring your
+        Automatically download missing items from your collections, ensuring your
         library stays fresh. Use either Radarr/Sonarr or Overseerr requests.
       </>
     ),

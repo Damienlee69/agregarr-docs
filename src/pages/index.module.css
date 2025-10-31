@@ -59,6 +59,19 @@
   margin: 0 0.25rem;
 }
 
+.screenshotSection {
+  padding: 3rem 0;
+  background-color: #1c1917;
+  text-align: center;
+}
+
+.screenshot {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
 .quickStart {
   padding: 2rem 0 4rem;
   background-color: #1c1917;

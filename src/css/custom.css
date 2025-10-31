@@ -29,8 +29,9 @@
   --ifm-navbar-background-color: #1c1917;
 
   /* Footer */
-  --ifm-footer-background-color: #1c1917;
+  --ifm-footer-background-color: #292524;
   --ifm-footer-link-color: #f97316;
+  --ifm-footer-color: #cbd5e1;
 }
 
 /* Force dark mode */
@@ -80,4 +81,30 @@ pre code * {
   color: #fb923c !important;
   border-color: #fb923c !important;
   text-decoration: none !important;
+}
+
+/* Footer - force stone-800 background to match UI */
+.footer {
+  background-color: #292524 !important;
+}
+
+.footer__title {
+  color: #f1f5f9 !important;
+}
+
+.footer__item {
+  color: #cbd5e1 !important;
+}
+
+.footer__link-item {
+  color: #f97316 !important;
+}
+
+.footer__link-item:hover {
+  color: #fb923c !important;
+}
+
+/* Image zoom - less rounded corners */
+.medium-zoom-image--opened {
+  border-radius: 4px !important;
 }

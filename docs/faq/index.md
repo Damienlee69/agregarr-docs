@@ -20,27 +20,17 @@ Yes, completely free and open source (GPL-3.0).
 
 Yes, you need Plex Pass to fully utilise Agregarr. Without Plex Pass, you can create collections but they will only be visible on the Collections and Library Tab.
 
+**What's the difference between Agregarr and Kometa**
+
+Agregarr is web-gui based while Kometa is yaml based. Agregarr is solely focused on Collections, while Kometa includes collections as one of its main features. Kometas original name "Plex Meta Manager" describes it's function that goes above what Agregarr offers, for metadata management Kometa is the only option.
+
 ## Setup
 
 **Can I use it with multiple Plex servers?**
 
 You need separate Agregarr instances for each server.
 
-**Does it work with Jellyfin/Emby?**
-
-No, Plex only.
-
-**How do I update?**
-
-```bash
-docker-compose down && docker-compose pull && docker-compose up -d
-```
-
-Your config persists in the volume. If agregarr gets refreshed to its intial setup state after you restart, it is because your volume is not set correctly.
-
-**How can I setup for multiple Plex servers?**
-
-Add a new instance to your docker-compose, and change the port for the new instance
+Add a new instance to your docker-compose, and change the port and config path for the new instance
 
 ```yaml
 services:
@@ -61,6 +51,18 @@ services:
       - 7172:7171
     restart: unless-stopped
 ```
+
+**Does it work with Jellyfin/Emby?**
+
+No, Plex only.
+
+**How do I update?**
+
+```bash
+docker-compose down && docker-compose pull && docker-compose up -d
+```
+
+Your config persists in the volume. If agregarr gets refreshed to its intial setup state after you restart, it is because your volume is not set correctly.
 
 ## Collections
 

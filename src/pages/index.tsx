@@ -39,6 +39,20 @@ function HomepageHeader() {
   );
 }
 
+function ScreenshotSection() {
+  return (
+    <section className={styles.screenshotSection}>
+      <div className="container">
+        <img
+          src="/img/agregarr-home.png"
+          alt="Agregarr Home Screen"
+          className={styles.screenshot}
+        />
+      </div>
+    </section>
+  );
+}
+
 function QuickStartSection() {
   return (
     <section className={styles.quickStart}>
@@ -56,7 +70,7 @@ function QuickStartSection() {
     image: agregarr/agregarr:latest
     container_name: agregarr
     volumes:
-      - /path/to/config:/config
+      - /path/to/config:/config   ### change /path/to/config to your actual config path
     ports:
       - 7171:7171
     restart: unless-stopped`}
@@ -81,6 +95,7 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <ScreenshotSection />
         <QuickStartSection />
       </main>
     </Layout>

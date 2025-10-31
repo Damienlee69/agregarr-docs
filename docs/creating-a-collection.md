@@ -21,7 +21,7 @@ Now you can create your first Agregarr Collection
 Give your collection a name. Some collection types offer preset names, or you can enter your own custom title.
 
 :::note Tip
-If you name collections the same in both Movies and TV libraries, Plex will link them together when viewing.
+If you name collections the same in both Movies and TV libraries, Plex will link them together when viewing. However, you should never have two collections with the same name in the same library, as Plex gets confused.
 :::
 
 ### Visibility
@@ -29,7 +29,11 @@ If you name collections the same in both Movies and TV libraries, Plex will link
 Choose where the collection appears:
 - **Users Home** - Main Plex Home screen for users (other than server owner)
 - **Sever Owner Home** - Main Plex Home screen for Plex server owner
-- **Recommended** - Library Recommended tab (if users haven't pinned your Library to their Home screen, this is the main section they will see when they view your Library)
+- **Recommended** - Library Recommended tab for everyone
+
+:::note Tip
+If users haven't pinned your Library to their Home screen, Library Recommended is the main section they will see when they view your server. It is recommended to always have your main Home content also included in the Library Recommended.
+:::
 
 Collections will always be visible in the Library and Collections Tabs.
 
@@ -39,12 +43,12 @@ You need Plex Pass to promote Collections to the Home/Recommended screens
 
 ### Max Items
 
-How many items to show. Agregarr will try to fill the collection to this number from items further down the list. If new items get added, filled items will be removed on the next sync.
+How many items to show. Agregarr will try to fill the collection to this number from items further down the list. If new items get added, filled items will be removed from the collection on the next sync.
 
 ### Unwatched Only
 
 Enable this to create a smart collection that only shows unwatched content. It creates two collections:
-- Base collection (hidden, all items)
+- Base collection (pushed to bottom of library and collection tab, hidden from home/recommended, all items)
 - Smart collection (visible, unwatched only)
 
 Each user viewing the collection sees their own unwatched items.
@@ -67,7 +71,7 @@ When inactive, choose to either remove the collection entirely or just change it
 
 This overrides the main sync schedule (default 12 hours), if you want the collection to be synced more or less frequently.
 
-To configure the main sync schedule from the defualt 12 hours, got to Settings → Jobs.
+To configure the main sync schedule from the defualt 12 hours, go to Settings → Jobs.
 
 ## Download Settings
 
@@ -79,7 +83,7 @@ If you want Agregarr to automatically grab missing items from this collection.
 
 Control what gets downloaded:
 
-**Position Limit**: Only download top 10 items (prevents downloading entire lists)
+**Position Limit**: E.g. Only download top 10 items (prevents downloading entire lists)
 
 **Release Year**: Only download items newer than this year
 
@@ -87,7 +91,7 @@ Control what gets downloaded:
 
 **Genre**: Exclude specific genres
 
-**Country**: Filter by origin country
+**Country**: Exclude specific origin country
 
 ### Download Method
 
@@ -107,5 +111,5 @@ Before saving, click **Preview** to see:
 - Which you already have
 - Manually download individual items if you don't want to use auto-download
 
-Click **Save**, on the next scheduled sync the collection will be created in Plex, or you can press the red sync button next to the collection to sync just this collection to Plex now.
+Click **Save**, on the next scheduled sync the collection will be created in Plex, or you can press the Sync COllections button to sync all collections now, or the red button next to the collection to sync just this collection to Plex now.
 

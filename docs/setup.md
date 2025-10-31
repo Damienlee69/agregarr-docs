@@ -3,9 +3,11 @@ sidebar_position: 2
 title: Initial Setup
 ---
 
+import ImageGallery from '@site/src/components/ImageGallery';
+
 # Initial Setup
 
-After installing Agregarr, you need to connect it to your Plex server and optionally configure collection sources.
+After installing Agregarr, you need to connect it to your Plex server and optionally configure collection sources and download methods.
 
 ## Sign in to Plex
 
@@ -17,13 +19,33 @@ Open Agregarr at `http://localhost:7171`
 
 You need to use the Plex account that owns your server.
 
+<ImageGallery
+    images={[
+      { src: '/img/sign-in-1.png', alt: 'Agregarr Plex Sign-In' },
+      { src: '/img/sign-in-2.png', alt: 'Plex account authorisation' },
+    ]}
+    columns={2}
+  />
+
+
 ## Select Your Plex Server
 
 1. Click the refresh icon next to the server dropdown
 2. Select your Plex Media Server
 3. Click Continue
 
-If you want to manage multiple Plex servers, you'll need separate Agregarr instances.
+<ImageGallery
+    images={[
+      { src: '/img/server-setup-1.png', alt: 'Server search' },
+      { src: '/img/server-setup-2.png', alt: 'Server selection' },
+      { src: '/img/server-setup-3.png', alt: 'Finalised setup' },
+    ]}
+    columns={3}
+  />
+
+
+If you want to manage multiple Plex servers, you'll need [separate Agregarr instances](/docs/faq/#setup).
+
 
 ## Configure Sources (Optional)
 
@@ -51,17 +73,15 @@ Each source has a Test button to verify your configuration works.
 
 ## Configure Downloads (Optional)
 
-If you want Agregarr to automatically download missing items from collections, you can set up Radarr/Sonarr or Overseerr.
+If you want Agregarr to download missing items from collections according to your set filters, you can set up:
 
-### Radarr/Sonarr
+**Radarr/Sonarr** - Directly adds, monitors, and initiates a search for content. You can add multiple Radarr/Sonarr servers if needed.
+ 
+  or
 
-1. Go to Settings → Downloads
-2. Click Add Radarr or Add Sonarr
-3. Enter server URL (e.g., `http://192.168.0.236:7878`)
-4. Enter API key (from Radarr/Sonarr Settings → General)
-5. Test the connection
+**Overseerr** - Creates either manual or auto approve request 
 
-You can add multiple Radarr/Sonarr servers if needed.
+
 
 ### Source identification options
 
@@ -70,15 +90,15 @@ Both download methods have options to differentiate which source the item is bei
 |Setting|Overseerr user|Radarr/Sonarr tag|
 |-------|------|------|
 |Single|Aggregarr|agregarr|
-|Per-Source|IMDbAgregarr|imdb-agregarr|
-|Per-Collection|IMDbTop250Agregarr|imdb-top-250-agregarr|
+|Per-Source|e.g. IMDbAgregarr|e.g. imdb-agregarr|
+|Per-Collection|e.g. IMDbTop250Agregarr|e.g. imdb-top-250-agregarr|
 
 ## Run Discover Existing Collections & Hubs
 
 Once setup is complete:
 
 1. Click Finish
-2. Click the **Discover** button at the top
+2. Click the **Discover** button
 3. Agregarr will scan your Plex library
 
 This finds all existing collections and default Plex hubs (Recently Added, Continue Watching, etc.) so Agregarr can manage them alongside new collections.

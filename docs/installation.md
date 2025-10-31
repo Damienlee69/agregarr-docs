@@ -17,7 +17,7 @@ services:
     image: agregarr/agregarr:latest
     container_name: agregarr
     volumes:
-      - /path/to/config:/app/config
+      - /path/to/config:/app/config    #### Change to your config directory
     ports:
       - 7171:7171
     restart: unless-stopped
@@ -27,17 +27,34 @@ services:
 Change `/path/to/config` to your actual config directory, otherwise your settings won't persist after restarts!
 
 Examples:
-- Linux/macOS: `/home/username/agregarr/config`
-- Windows: `C:\agregarr\config`
+- Linux/macOS: `- /home/username/serverdata/configs/agregarr:/app/config`
+- Windows: `- C:\serverdata\configs\agregarr:/app/config`
 :::
 
-Start Agregarr:
+Save the file as `docker-compose.yml`, using our above examples:
+- Linux/macOS: `- /home/username/serverdata/docker-compose.yml`
+- Windows: `- C:\serverdata\docker-compose.yml`
 
+Navigate to the directory where you have stored you `docker-compose.yml` file:
+
+#### Linux
 ```bash
+cd
+cd serverdata
 docker-compose up -d
 ```
 
-Access it at `http://localhost:7171`
+#### Windows
+See the below example to navigate to the directory, open command prompt, and run `docker-compose.yml`
+
+
+<video controls width="100%">
+  <source src="/video/windows-setup.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+
+Access Agregarr at `http://localhost:7171`
 
 ## Docker Run
 

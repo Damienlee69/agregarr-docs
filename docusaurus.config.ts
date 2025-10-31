@@ -55,6 +55,15 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      'docusaurus-plugin-image-zoom',
+      {
+        selector: '.markdown img, .galleryImage',
+      },
+    ],
+  ],
+
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -204,6 +213,17 @@ const config: Config = {
     prism: {
       theme: prismThemes.vsLight,
       darkTheme: prismThemes.vsDark,
+    },
+    zoom: {
+      selector: '.markdown img, .galleryImage',
+      background: {
+        light: 'rgba(0, 0, 0, 0.8)',
+        dark: 'rgba(0, 0, 0, 0.9)',
+      },
+      config: {
+        margin: 80,
+        scrollOffset: 0,
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
