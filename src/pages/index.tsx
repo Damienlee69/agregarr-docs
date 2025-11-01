@@ -33,6 +33,9 @@ function HomepageHeader() {
           <a href="https://discord.gg/RfEPPRQJQ2" target="_blank" rel="noopener noreferrer">
             <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2FRfEPPRQJQ2%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&logo=discord&logoColor=5865F2&label=Discord&style=social" alt="Discord Members" />
           </a>
+          <a href="https://www.reddit.com/r/agregarr/" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.shields.io/reddit/subreddit-subscribers/agregarr?style=social&logo=reddit&label=Reddit" alt="Reddit Subscribers" />
+          </a>
         </div>
       </div>
     </header>
