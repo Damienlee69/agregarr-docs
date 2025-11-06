@@ -9,8 +9,12 @@ title: FAQ
 
 **What is Agregarr?**
 
-A Plex Collections Manager that automatically creates and syncs collections from sources like Trakt, IMDb, TMDb, and more.
+A Plex Collections Manager that automatically creates and syncs lists from sources like Trakt, IMDb, TMDb, and many more.
 It also allows full control of visibility and order on the Plex Home screen, helping you create a more dynamic feel much like streaming services.
+
+For example, you could add Trakt Trending, IMDb Top 250, and Networks Top 10 (Netflix, Apple TV etc) collections, which when selected to appear on the Home screen, would appear in Plex like below.
+
+![Plex Sign-In](/img/home-preview.png)
 
 **Is it free?**
 
