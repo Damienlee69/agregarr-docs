@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Docker Tips (Windows)
+title: Docker Tips & Windows Setup
 ---
 
 ## Windows quick start (Docker Desktop)
@@ -19,7 +19,6 @@ title: Docker Tips (Windows)
 - Map each instance to a different port (7171, 7172, ...).
 - Give every instance its own config volume.
 - Use unique container names.
-- Configure Overseerr/Radarr/Sonarr credentials for each instance separately.
 
 ```yaml
 services:

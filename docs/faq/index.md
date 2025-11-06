@@ -9,10 +9,10 @@ title: FAQ
 
 **What is Agregarr?**
 
-A Plex Collections Manager that automatically creates and syncs lists from sources like Trakt, IMDb, TMDb, and many more.
+A Plex Collections Manager that automatically creates collections from lists from sources like Trakt, IMDb, TMDb, Letterboxd and many more.
 It also allows full control of visibility and order on the Plex Home screen, helping you create a more dynamic feel much like streaming services.
 
-For example, you could add Trakt Trending, IMDb Top 250, and Networks Top 10 (Netflix, Apple TV etc) collections, which when selected to appear on the Home screen, would appear in Plex like below.
+For example, you could add Trakt Trending, IMDb Top 250, and Top 10 on Amazon Prime collections, which when selected to appear on the Home screen, would appear in Plex something like below.
 
 ![Plex Sign-In](/img/home-preview.png)
 
@@ -29,6 +29,10 @@ Yes, you need Plex Pass to fully utilise Agregarr. Without Plex Pass, you can cr
 Agregarr is web-gui based while Kometa is yaml based. Agregarr is solely focused on Collections, while Kometa includes collections as one of its main features. Kometas original name "Plex Meta Manager" describes it's function that goes above what Agregarr offers, for metadata management Kometa is the only option.
 
 ## Setup
+
+**How can I install on Windows?**
+
+Follow [these instructions](/docs/docker-tips.md) (takes ~10 minutes)
 
 **Can I use it with multiple Plex servers?**
 

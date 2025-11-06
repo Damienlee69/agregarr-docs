@@ -266,7 +266,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'doc',
       id: 'docker-tips',
-      label: 'Docker Tips',
+      label: 'Docker Tips & Windows Setup',
     },
   ],
 

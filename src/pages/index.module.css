@@ -9,6 +9,14 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(180deg, #1c1917 0%, #292524 100%);
+  min-height: calc(100vh - var(--ifm-navbar-height, 0px));
+}
+
+.heroBanner .container {
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .heroLogo {
