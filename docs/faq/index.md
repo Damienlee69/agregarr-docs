@@ -12,7 +12,7 @@ title: FAQ
 A Plex Collections Manager that automatically creates collections from lists from sources like Trakt, IMDb, TMDb, Letterboxd and many more.
 It also allows full control of visibility and order on the Plex Home screen, helping you create a more dynamic feel much like streaming services.
 
-For example, you could add Trakt Trending, IMDb Top 250, and Top 10 on Amazon Prime collections, which when selected to appear on the Home screen, would appear in Plex something like below.
+For example, you could add Trakt Trending, IMDb Top 250, some Networks Top 10's (Amazon Prime, Disney, Netflix etc), and a Tautulli Statistics collection, which when selected to appear on the Home screen, would appear in Plex something like this.
 
 ![Plex Sign-In](/img/home-preview.png)
 
