@@ -273,6 +273,11 @@ const sidebars: SidebarsConfig = {
       id: 'imdb-ratings',
       label: 'IMDb Ratings Proxy',
     },
+    {
+      type: 'doc',
+      id: 'coming-soon-volumes',
+      label: 'Coming Soon Docker Volumes',
+    },
   ],
 
   // FAQ sidebar

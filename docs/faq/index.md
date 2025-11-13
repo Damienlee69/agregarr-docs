@@ -26,7 +26,9 @@ Yes, you need Plex Pass to fully utilise Agregarr. Without Plex Pass, you can cr
 
 **What's the difference between Agregarr and Kometa**
 
-Agregarr is web-gui based while Kometa is yaml based. Agregarr is solely focused on Collections, while Kometa includes collections as one of its main features. Kometas original name "Plex Meta Manager" describes it's function that goes above what Agregarr offers, for metadata management Kometa is the only option.
+Agregarr is solely focused on Collections, while Kometa includes Collections as one of its many features. Agregarr is web-gui based while Kometa is yaml based. Kometas original name "Plex Meta Manager" describes it's function that goes above what Agregarr offers, for metadata management Kometa is the only option. 
+
+You can run Agregarr and Kometa side-by-side, with the exclusion of overlays.
 
 ## Setup
 
