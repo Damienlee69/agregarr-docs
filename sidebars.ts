@@ -268,6 +268,11 @@ const sidebars: SidebarsConfig = {
       id: 'docker-tips',
       label: 'Docker Tips & Windows Setup',
     },
+    {
+      type: 'doc',
+      id: 'imdb-ratings',
+      label: 'IMDb Ratings Proxy',
+    },
   ],
 
   // FAQ sidebar
