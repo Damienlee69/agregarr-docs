@@ -7,7 +7,7 @@ title: IMDb Ratings Proxy
 
 Agregarr hosts a free open source IMDb ratings proxy for both Movies and TV Shows. We use this to get IMDb ratings for Missing Items filtering, Preview Collections, and Poster Overlays.
 
-You are welcome to use this in your own open source project, no API key required. Any issues can be reported on the [GitHub page](https://github.com/agregarr/imdb-ratings-proxy/issues)
+You are welcome to use this in your own open source project, no API key required. Any issues can be reported on the [GitHub page](https://github.com/agregarr/imdb-ratings-api/issues)
 
 ## API Endpoints
 
