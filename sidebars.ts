@@ -276,7 +276,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'doc',
       id: 'coming-soon-volumes',
-      label: 'Coming Soon Docker Volumes',
+      label: 'Placeholder Docker Volumes',
     },
   ],
 

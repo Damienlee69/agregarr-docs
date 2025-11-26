@@ -1,74 +1,15 @@
 ---
 sidebar_position: 6
-title: Coming Soon Docker Volumes
+title: Placeholder Docker Volumes
 ---
 
-# Coming Soon - Docker Volume Requirements
+# Placeholders - Docker Volume Requirements
 
-The **Coming Soon** feature creates placeholder files in your media directories so they appear in Plex before content is actually released. This requires Agregarr to have filesystem access to the same media folders that Radarr and Sonarr use.
+The **Placeholder creation** option creates placeholder files in your media directories so they appear in Plex before content is actually released for the **Coming Soon** collections, or for any content unavailable on your server from any list. This requires Agregarr to have filesystem access to the same media folders that Plex can scan.
 
-## Why Volume Mounting is Required
+Without proper volume mounting, Agregarr cannot write to your media folders and the Placeholder creation feature will not work.
 
-When you create a Coming Soon collection, Agregarr needs to:
-1. Create placeholder video files in your Radarr/Sonarr media directories
-2. Trigger a Plex library scan to discover the placeholders
-3. Apply overlay posters to mark them as "Coming Soon"
-
-Without proper volume mounting, Agregarr cannot write to your media folders and the Coming Soon feature will not work.
-
-## Understanding Path Matching
-
-The key requirement is: **Agregarr must be able to access the same paths that Radarr and Sonarr report**.
-
-For example:
-- If Radarr reports its root folder as `C:\data\movies`
-- Then Agregarr must also be able to access files at `mnt/c/data/movies`
-
-- If Radarr reports its root folder as `/data/movies`
-- Then Agregarr must also be able to access files at `/data/movies`
-
-## Docker Compose Examples
-
-### Linux / macOS Setup
-
-```yaml
-services:
-  radarr:
-    image: lscr.io/linuxserver/radarr:latest
-    container_name: radarr
-    volumes:
-      - /mnt/media/movies:/data/movies  # Host path : Container path
-    # ... other config
-
-  sonarr:
-    image: lscr.io/linuxserver/sonarr:latest
-    container_name: sonarr
-    volumes:
-      - /mnt/media/tv:/data/tv  # Host path : Container path
-    # ... other config
-
-  agregarr:
-    image: agregarr/agregarr:latest
-    container_name: agregarr
-    volumes:
-      - /path/to/agregarr/config:/app/config
-      - /mnt/media/movies:/data/movies  # Same container path as Radarr
-      - /mnt/media/tv:/data/tv          # Same container path as Sonarr
-    # ... other config
-```
-
-**Key Points:**
-- The **container path** (right side) must match across all containers
-- The **host path** (left side) should be the same folder your media is stored in
-- Use the same paths that your Radarr/Sonarr containers use
-
-### Windows Setup
-
-Windows has unique considerations because of how Docker Desktop uses WSL2 (Windows Subsystem for Linux). The setup depends on whether you're running Radarr/Sonarr natively on Windows or in Docker.
-
-#### Scenario A: Native Windows Radarr/Sonarr (Most Common)
-
-If you're running Radarr and Sonarr as **native Windows applications** (not in Docker), they will report Windows paths like `E:\media\movies`. Agregarr running in Docker needs to access these same folders via WSL2 mount paths.
+You first need to mount your volumes in your docker-compose.yml file, replacing the paths to your actual paths (see below).
 
 ```yaml
 services:
@@ -76,55 +17,40 @@ services:
     image: agregarr/agregarr:latest
     container_name: agregarr
     volumes:
-      - C:\configs\agregarr:/app/config
-      - E:\media\movies:/mnt/e/media/movies  # Windows path : WSL2 mount path
-      - E:\media\tv:/mnt/e/media/tv          # Windows path : WSL2 mount path
-    # ... other config
+      # Config path
+      - /path/to/config:/app/config ### Change /path/to/config to your actual config path
+
+      # Placeholder paths
+      # Linux/Mac: 
+      - /path/to/movies:/data/movies ### Change /path/to/movies to your actual movies folder path
+      - /path/to/tv:/data/tv ### Change /path/to/tv to your actual tv folder path
+      # Windows:
+      - E:\media\movies:/data/movies ### Change E:\media\movies to your actual movies folder path
+      - E:\media\tv:/data/tv ### Change E:\media\tv to your actual tv folder path
+    ports:
+      - 7171:7171
+    restart: unless-stopped
 ```
 
-**How it works:**
-1. Native Radarr reports: `E:\media\movies`
-2. Agregarr's path translation auto-converts `E:\` to `/mnt/e/`
-3. Docker volume maps `E:\media\movies` to `/mnt/e/media/movies` inside the container
-4. Agregarr can now access the files at the translated path
+Then, under `Settings -> Downloads -> Placeholder Root Folders`, select the container path you created above, `/data/movies` for Movies, and `/data/tv` for TV Shows. That's it! Placeholders can now be created in Plex to show unreleased/unavailable content.
 
-**Key Points:**
-- Use Windows drive letters on the **left** side: `E:\media\movies`
-- Use WSL2 mount paths on the **right** side: `/mnt/e/media/movies`
-- The drive letter becomes `/mnt/{lowercase-letter}/`: `C:\` → `/mnt/c/`, `E:\` → `/mnt/e/`
-- Agregarr's built-in path translation handles the conversion automatically
+## Understanding Docker Volumes
 
-#### Scenario B: All Docker Containers on Windows
+Docker fundamentally runs each app in 'containers', this is an isolated environment and for it to see anything outside of its container, you must give it specific access. 
 
-If you're running Radarr, Sonarr, AND Agregarr all in Docker on Windows, you need consistent WSL2 paths across all containers.
+We do this by mounting 'volumes'. A volume in your `docker-compose.yml` file looks like
 
-```yaml
-services:
-  radarr:
-    image: lscr.io/linuxserver/radarr:latest
-    container_name: radarr
-    volumes:
-      - E:\media\movies:/mnt/e/media/movies  # Windows path : WSL2 mount path
-    # ... other config
+  `- /mnt/media/movies:data/movies`
+  or for Windows
+  `- E:\media\movies:data/movies`
 
-  sonarr:
-    image: lscr.io/linuxserver/sonarr:latest
-    container_name: sonarr
-    volumes:
-      - E:\media\tv:/mnt/e/media/tv  # Windows path : WSL2 mount path
-    # ... other config
+Where it is made up of two parts divided by the `:`
 
-  agregarr:
-    image: agregarr/agregarr:latest
-    container_name: agregarr
-    volumes:
-      - C:\configs\agregarr:/app/config
-      - E:\media\movies:/mnt/e/media/movies  # Same container path as Radarr
-      - E:\media\tv:/mnt/e/media/tv          # Same container path as Sonarr
-    # ... other config
-```
+The first part `E:\media\movies` is your actual path in your local machine, this is what you would normally browse to in your computers file explorer. 
 
-**Key Points:**
-- All containers see the same path: `/mnt/e/media/movies`
-- No path translation needed since paths already match
-- WSL2 mount format is consistent across all containers
+The second part `data/movies` is the containers path, which is what the container can see. When we mount a volume, all we are doing is telling the container that `/data/movies` is actually `E:\media\movies`. You can name the second part anything you want, for example
+
+  `- /mnt/media/movies:/banana`
+  `- /mnt/media/tv:/orange/house`
+
+is perfectly valid. You would then in Agregarr under Settings -> Downloads -> Placeholders Root Folder select `/banana` as your movies folder, and `/orange/house` as your tv folder.
