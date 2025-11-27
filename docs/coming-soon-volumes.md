@@ -50,7 +50,7 @@ The first part `E:\media\movies` is your actual path in your local machine, this
 
 The second part `data/movies` is the containers path, which is what the container can see. When we mount a volume, all we are doing is telling the container that `/data/movies` is actually `E:\media\movies`. You can name the second part anything you want, for example
 
-  `- /mnt/media/movies:/banana`
-  `- /mnt/media/tv:/orange/house`
+  `- E:\media\movies:/banana`
+  `- E:\media\tv:/orange/house`
 
 is perfectly valid. You would then in Agregarr under Settings -> Downloads -> Placeholders Root Folder select `/banana` as your movies folder, and `/orange/house` as your tv folder.
