@@ -21,6 +21,7 @@ services:
       - /path/to/config:/app/config   ### Change /path/to/config to your actual config path
 
       # Placeholder paths
+
       # Linux/Mac: 
       - /path/to/movies:/data/movies   ### Change /path/to/movies to your actual movies folder path
       - /path/to/tv:/data/tv   ### Change /path/to/tv to your actual tv folder path
@@ -34,7 +35,7 @@ services:
     restart: unless-stopped
 ```
 
-Then, under `Settings -> Downloads -> Placeholder Root Folders`, select the container path you created above, `/data/movies` for Movies, and `/data/tv` for TV Shows. That's it! Placeholders can now be created in Plex to show unreleased/unavailable content.
+Then, under `Settings > Downloads > Placeholder Root Folders`, select the container path you created above, `/data/movies` for Movies, and `/data/tv` for TV Shows. That's it! Placeholders can now be created in Plex to show unreleased/unavailable content.
 
 ## Understanding Docker Volumes
 
@@ -42,9 +43,9 @@ Docker fundamentally runs each app in 'containers', this is an isolated environm
 
 We do this by mounting 'volumes'. A volume in your `docker-compose.yml` file looks like
 
-  `- /mnt/media/movies:data/movies`
+`- /mnt/media/movies:data/movies`
   or for Windows
-  `- E:\media\movies:data/movies`
+`- E:\media\movies:data/movies`
 
 Where it is made up of two parts divided by the `:`
 
@@ -52,7 +53,7 @@ The first part `E:\media\movies` is your actual path in your local machine, this
 
 The second part `data/movies` is the containers path, which is what the container can see. When we mount a volume, all we are doing is telling the container that `/data/movies` is actually `E:\media\movies`. You can name the second part anything you want, for example
 
-  `- E:\media\movies:/banana`
-  `- E:\media\tv:/orange/house`
+`- E:\media\movies:/banana`
+`- E:\media\tv:/orange/house`
 
 is perfectly valid. You would then in Agregarr under Settings -> Downloads -> Placeholders Root Folder select `/banana` as your movies folder, and `/orange/house` as your tv folder.
