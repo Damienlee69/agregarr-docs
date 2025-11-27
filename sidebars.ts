@@ -225,6 +225,11 @@ const sidebars: SidebarsConfig = {
           id: 'options/missing-items',
           label: 'Missing Items',
         },
+        {
+          type: 'doc',
+          id: 'options/create-placeholders',
+          label: 'Create Placeholders',
+        },
       ],
     },
     {
