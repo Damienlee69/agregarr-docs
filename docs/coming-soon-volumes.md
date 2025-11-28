@@ -11,7 +11,7 @@ Without proper volume mounting, Agregarr cannot write to your media folders and 
 
 You first need to mount your volumes in your docker-compose.yml file, replacing the paths to your actual paths (see below).
 
-```yaml
+```yaml title="docker-compose.yaml"
 services:
   agregarr:
     image: agregarr/agregarr:latest

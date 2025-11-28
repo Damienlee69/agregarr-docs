@@ -20,7 +20,7 @@ title: Docker Tips & Windows Setup
 - Give every instance its own config volume.
 - Use unique container names.
 
-```yaml
+```yaml title="docker-compose.yaml"
 services:
   agregarr1:
     image: agregarr/agregarr:latest
@@ -52,7 +52,7 @@ You can do this for any docker container!
 
 Update paths and environment variables as needed. Replace the Cloudflared values with your own.
 
-```yaml
+```yaml title="docker-compose.yaml"
 services:
   agregarr:
     image: agregarr/agregarr:latest

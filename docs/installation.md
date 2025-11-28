@@ -11,7 +11,7 @@ Agregarr runs in Docker. You'll need Docker installed and a running Plex Media S
 
 Create a `docker-compose.yml` file:
 
-```yaml
+```yaml title="docker-compose.yaml"
 services:
   agregarr:
     image: agregarr/agregarr:latest

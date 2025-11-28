@@ -42,7 +42,7 @@ You need separate Agregarr instances for each server.
 
 Add a new instance to your docker-compose, and change the name, container port and config path for the new instance
 
-```yaml
+```yaml title="docker-compose.yaml"
 services:
   agregarr1:
     image: agregarr/agregarr:latest
