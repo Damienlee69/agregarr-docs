@@ -212,7 +212,7 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.vsLight,
-      darkTheme: prismThemes.vsDark,
+      darkTheme: prismThemes.oceanicNext,
     },
     zoom: {
       selector: '.markdown img, .galleryImage',

@@ -48,7 +48,7 @@ services:
     image: agregarr/agregarr:latest
     container_name: agregarrexample1
     volumes:
-      - /path/to/config1:/app/config   ### change this
+      - /path/to/config1:/app/config # change this
     ports:
       - 7171:7171
     restart: unless-stopped
@@ -56,7 +56,7 @@ services:
     image: agregarr/agregarr:latest
     container_name: agregarrexample2
     volumes:
-      - /path/to/config2:/app/config   ### change this
+      - /path/to/config2:/app/config # change this
     ports:
       - 7172:7171
     restart: unless-stopped
@@ -72,7 +72,7 @@ No, Plex only.
 docker-compose down && docker-compose pull && docker-compose up -d
 ```
 
-Your config persists in the volume. If agregarr gets refreshed to its intial setup state after you restart, it is because your volume is not set correctly.
+Your config persists in the volume. If agregarr gets refreshed to its initial setup state after you restart, it is because your volume is not set correctly.
 
 ## Collections
 

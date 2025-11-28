@@ -73,7 +73,7 @@ function QuickStartSection() {
     image: agregarr/agregarr:latest
     container_name: agregarr
     volumes:
-      - /path/to/config:/app/config   ### change /path/to/config to your actual config path
+      - /path/to/config:/app/config # change /path/to/config to your actual config path
     ports:
       - 7171:7171
     restart: unless-stopped`}

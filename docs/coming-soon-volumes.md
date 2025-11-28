@@ -18,18 +18,18 @@ services:
     container_name: agregarr
     volumes:
       # Config path
-      - /path/to/config:/app/config   ### Change /path/to/config to your actual config path
+      - /path/to/config:/app/config # Change /path/to/config to your actual config path
 
+      // highlight-start
       # Placeholder paths
-
       # Linux/Mac: 
-      - /path/to/movies:/data/movies   ### Change /path/to/movies to your actual movies folder path
-      - /path/to/tv:/data/tv   ### Change /path/to/tv to your actual tv folder path
+      - /path/to/movies:/data/movies # Change /path/to/movies to your actual movies folder path
+      - /path/to/tv:/data/tv # Change /path/to/tv to your actual tv folder path
 
       # Windows:
-      - E:\media\movies:/data/movies   ### Change E:\media\movies to your actual movies folder path
-      - E:\media\tv:/data/tv   ### Change E:\media\tv to your actual tv folder path
-      
+      - E:\media\movies:/data/movies # Change E:\media\movies to your actual movies folder path
+      - E:\media\tv:/data/tv # Change E:\media\tv to your actual tv folder path
+      // highlight-end
     ports:
       - 7171:7171
     restart: unless-stopped

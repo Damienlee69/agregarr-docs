@@ -17,7 +17,7 @@ services:
     image: agregarr/agregarr:latest
     container_name: agregarr
     volumes:
-      - /path/to/config:/app/config    #### Change to your config directory
+      - /path/to/config:/app/config # Change to your config directory
     ports:
       - 7171:7171
     restart: unless-stopped

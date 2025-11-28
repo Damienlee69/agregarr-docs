@@ -60,9 +60,9 @@ services:
     ports:
       - 7171:7171
     volumes:
-      - C:\serverdata\configs\agregarr:/app/config    ### change this
+      - C:\serverdata\configs\agregarr:/app/config # change this
     environment:
-      - TZ=Pacific/Auckland    ### change this
+      - TZ=Pacific/Auckland # change this
     restart: unless-stopped
 
   overseerr:
@@ -71,9 +71,9 @@ services:
     ports:
       - 5055:5055
     volumes:
-      - C:\serverdata\configs\overseerr:/app/config    ### change this
+      - C:\serverdata\configs\overseerr:/app/config # change this
     environment:
-      - TZ=Pacific/Auckland    ### change this
+      - TZ=Pacific/Auckland # change this
     restart: unless-stopped
 
   profilarr:
@@ -82,9 +82,9 @@ services:
     ports:
       - 6868:6868
     volumes:
-      - C:\serverdata\configs\profilarr:/config    ### change this
+      - C:\serverdata\configs\profilarr:/config # change this
     environment:
-      - TZ=Pacific/Auckland    ### change this
+      - TZ=Pacific/Auckland # change this
     restart: unless-stopped
 
   maintainerr:
@@ -93,18 +93,18 @@ services:
     ports:
       - 6246:6246
     volumes:
-      - C:\serverdata\configs\maintainerr:/opt/data    ### change this
+      - C:\serverdata\configs\maintainerr:/opt/data # change this
     environment:
-      - TZ=Pacific/Auckland    ### change this
+      - TZ=Pacific/Auckland # change this
     restart: unless-stopped
 
   cloudflared:
     image: cloudflare/cloudflared:latest
     container_name: cloudflare-tunnel
-    command: tunnel run homeserver-tunnel    ### change this
+    command: tunnel run homeserver-tunnel # change this
     environment:
-      - CLOUDFLARE_TUNNEL_TOKEN=434f3vjnk3j4k34njnk3j4qj    ### change me
+      - CLOUDFLARE_TUNNEL_TOKEN=434f3vjnk3j4k34njnk3j4qj # change me
     volumes:
-      - C:\serverdata\configs\cloudflared:/etc/cloudflared    ### change this
+      - C:\serverdata\configs\cloudflared:/etc/cloudflared # change this
     restart: unless-stopped
 ```

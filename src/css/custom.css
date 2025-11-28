@@ -52,16 +52,6 @@ pre {
 
 pre code {
   background-color: #44403c !important;
-  color: #fb923c !important;
-}
-
-/* Override syntax highlighting colors */
-pre code * {
-  color: #fb923c !important;
-}
-
-.token {
-  color: #fb923c !important;
 }
 
 /* Buy Me a Coffee link styling */
