@@ -62,6 +62,17 @@ const config: Config = {
         selector: '.markdown img, .galleryImage',
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/docs/coming-soon-volumes',
+            to: '/docs/placeholder-volumes',
+          },
+        ],
+      },
+    ],
   ],
 
   themes: [
