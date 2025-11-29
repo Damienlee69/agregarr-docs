@@ -280,7 +280,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'doc',
-      id: 'coming-soon-volumes',
+      id: 'placeholder-volumes',
       label: 'Placeholder Docker Volumes',
     },
   ],

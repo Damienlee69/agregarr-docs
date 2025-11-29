@@ -1,6 +1,8 @@
 ---
 sidebar_position: 6
 title: Placeholder Docker Volumes
+createRedirects:
+  - /docs/coming-soon-volumes
 ---
 
 # Placeholders - Docker Volume Requirements
