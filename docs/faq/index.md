@@ -30,7 +30,7 @@ Agregarr is solely focused on Collections, while Kometa includes Collections as 
 
 You can run Agregarr and Kometa side-by-side, with the exclusion of overlays.
 
-For a detailed feature-by-feature comparison, see [Agregarr vs Kometa](/docs/faq/kometa-comparison).
+For a detailed feature-by-feature comparison, see [Agregarr vs Kometa](/docs/faq/agregarr-kometa).
 
 ## Setup
 
