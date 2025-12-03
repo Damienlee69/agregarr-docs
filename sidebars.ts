@@ -292,6 +292,11 @@ const sidebars: SidebarsConfig = {
       id: 'faq/index',
       label: 'F.A.Q',
     },
+    {
+      type: 'doc',
+      id: 'faq/kometa-comparison',
+      label: 'Agregarr vs Kometa',
+    },
   ],
 };
 
