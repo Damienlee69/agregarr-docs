@@ -18,8 +18,8 @@ Please keep in mind, Kometa is a very seasoned application while Agregarr is sti
 
 ## Feature Comparison:
 
-| Feature | Agregarr | Kometa |
-| --- | --- | --- |
+| Feature | &nbsp;&nbsp;&nbsp; Agregarr &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Kometa &nbsp;&nbsp;&nbsp; |
+| --- |:-----:|:-----:|
 | Movie Compatable | ✓   | ✓   |
 | TV Compatable | ✓   | ✓   |
 | Music Compatable | ✗   | ✓   |
@@ -30,35 +30,35 @@ Please keep in mind, Kometa is a very seasoned application while Agregarr is sti
 | Overlays | ✓   | ✓   |
 | Overlay Editing | ✓   | ✓   |
 | Overlay Templates | ✓   | ✓   |
-| Poster Editing | ✓   | ✓   |
-| Poster Templates | ✓   | ✗   |
+| Poster Customisation | ✓   | ✓   |
+| Poster Editor | ✓ | ✗  |
+| Poster Templates | ✓   |  ✗  |
 | Major Data/List Providers | ✓   | ✓   |
 | MediUX Integration | ✗   | ✓   |
 | Preroll Scheduling | ✗   | ✓   |
+| Collection Theme Music Assigning | ✓ | ✓ |
+| Local Asset Pulling Capable | ✓ | ✓ |
+| Local Asset Backup | ✓ | ✓ |
+| Overlay Removal | ~ | ✓ |
+| Single Collection Sync | ✓ | ✓ |
 
-Collection Theme Music Assigning
-
-Local Asset Pulling Capable
-
-Local Asset Backup
-
-Overlay Removal
-
-Single Collection Sync
-
-**Agregarr Main Features:** 
+### Agregarr Main Features:
 Collection Building
 Coming Soon Collection and Overlay Features
 Poster Templates and Editing
 Poster Overlays and Editing 
-For further information on either application please visit the respective links below:<br/> 
-[Agregarr.org](https://agregarr.org/)<br/>
-[Agregarr Discord](https://discord.gg/NJAMeXed)<br/>
-[Agregarr Github](https://github.com/agregarr/agregarr)<br/>
+For further information on either application please visit the respective links below:<br/>
+
+**<u>Agregarr</u>**<br/>
+[Documentation](https://agregarr.org/)<br/>
+[Discord](https://discord.gg/NJAMeXed)<br/>
+[Github](https://github.com/agregarr/agregarr)<br/>
 <br/>
-[Kometa Wiki](https://kometa.wiki/en/latest/)<br/>
-[Kometa Discord](https://discord.com/invite/kometa-822460010649878528)<br/>
-[Kometa Github](https://github.com/Kometa-Team/Kometa)<br/><br/> 
+**<u>Kometa</u>**<br/>
+[Documentation](https://kometa.wiki/en/latest/)<br/>
+[Discord](https://discord.com/invite/kometa-822460010649878528)<br/>
+[Github](https://github.com/Kometa-Team/Kometa)<br/><br/> 
+
 **Note:**
 
 - Sorting options not specified for either platform below.
@@ -66,426 +66,421 @@ For further information on either application please visit the respective links 
 
 ## <u>Collection Comparison</u>
 
-| <u>Collections</u> | <u>Agregarr</u> | <u>Kometa</u> |
-| --- | --- | --- |
+| <u>Collections</u> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Agregarr</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Kometa</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| --- |:---:|:---:|
 |     |     |     |
 | **Seperators** | ✗   | ✓   |
 |     |     |     |
 | **Coming Soon** |     |     |
-| Monitored | ✓   | ✗   |
-| Trakt Anticipated | ✓<br/>Monitored? | ✗<br/>Not monitored |
-| TMDB Coming Soon | ✓<br/>Monitored? | ✓<br/>Not Monitored |
+| &nbsp;&nbsp;&nbsp;- Monitored | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Trakt Anticipated | ✓<br/>Monitored? | ✗<br/>Not monitored |
+| &nbsp;&nbsp;&nbsp;- TMDB Coming Soon | ✓<br/>Monitored? | ✓<br/>Not Monitored |
 |     |     |     |
 | **Tautulli** |     |     |
-| Popular (Play Count) | ✓   | ✓   |
-| Popular (Watch Duration) | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Popular (Play Count) | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Popular (Watch Duration) | ✓   | ✓   |
 |     |     |     |
 | **Radarr** |     |     |
-| All | ✗   | ✓   |
-| Tag | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- All | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Tag | ✓   | ✓   |
 |     |     |     |
 | **Sonarr** |     |     |
-| All | ✗   | ✓   |
-| Tag | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- All | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Tag | ✓   | ✓   |
 |     |     |     |
 | **Plex** |     |     |
-| Smart Filter | Limited | ✓   |
-| All | ✗   | ✓   |
-| Collectionless | ✗   | ✓   |
-| Pilots | ✗   | ✓   |
-| Search | ✗   | ✓   |
-| Watchlist | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Smart Filter | Limited | ✓   |
+| &nbsp;&nbsp;&nbsp;- All | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Collectionless | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Pilots | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Search | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Watchlist | ✗   | ✓   |
 |     |     |     |
 | **Dynamic (No Run Required)** |     |     |
-| TMDb Collection | ✗   | ✓   |
-| TMDb Popular People | ✗   | ✓   |
-| Original Language | ✗   | ✓   |
-| Original Country | ✗   | ✓   |
-| IMDb Awards | ✗   | ✓   |
-| Letterboxd User Lists | ✗   | ✓   |
-| Trakt User Lists | ✗   | ✓   |
-| Trakt People List | ✗   | ✓   |
-| Actor | ✗   | ✓   |
-| Director | ✗   | ✓   |
-| Writer | ✗   | ✓   |
-| Producer | ✗   | ✓   |
-| Genre | ✗   | ✓   |
-| Album Genre | ✗   | ✓   |
-| Content Rating | ✗   | ✓   |
-| Year | ✗   | ✓   |
-| Episode Year | ✗   | ✓   |
-| Decaade | ✗   | ✓   |
-| Country | ✗   | ✓   |
-| Resolution | ✗   | ✓   |
-| Subtitle Language | ✗   | ✓   |
-| Audio Language | ✗   | ✓   |
-| Studio | ✗   | ✓   |
-| Edition | ✗   | ✓   |
-| Network | ✗   | ✓   |
-| Mood | ✗   | ✓   |
-| Album Mood | ✗   | ✓   |
-| Track Mood | ✗   | ✓   |
-| Style | ✗   | ✓   |
-| Album Style | ✗   | ✓   |
-| Number | ✗   | ✓   |
-| Custom | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- TMDb Collection | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- TMDb Popular People | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Original Language | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Original Country | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- IMDb Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Letterboxd User Lists | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Trakt User Lists | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Trakt People List | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Actor | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Director | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Writer | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Producer | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Genre | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Album Genre | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Content Rating | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Year | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Episode Year | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Decaade | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Country | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Resolution | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Subtitle Language | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Audio Language | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Studio | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Edition | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Network | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Mood | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Album Mood | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Track Mood | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Style | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Album Style | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Number | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Custom | ✗   | ✓   |
 |     |     |     |
 | **Content** |     |     |
-| Genre | ✗   | ✓   |
-| Franchises (Movie) | ✓   | ✓   |
-| Franchises (Show) | ✓   | ✓   |
-| Universes | ✗   | ✓   |
-| Based On... | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Genre | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Franchises (Movie) | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Franchises (Show) | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Universes | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Based On... | ✗   | ✓   |
 |     |     |     |
 | **Content Rating** |     |     |
-| US Content Ratings (Movie) | ✗   | ✓   |
-| US Content Ratings (Show) | ✗   | ✓   |
-| UK Content Ratings | ✗   | ✓   |
-| DE Content Ratings | ✗   | ✓   |
-| AU Content Ratings | ✗   | ✓   |
-| NZ Content Ratings | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- US Content Ratings (Movie) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- US Content Ratings (Show) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- UK Content Ratings | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- DE Content Ratings | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- AU Content Ratings | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- NZ Content Ratings | ✗   | ✓   |
 |     |     |     |
 | **Location** |     |     |
-| Countries (Movie) | ✗   | ✓   |
-| Countries (Show) | ✗   | ✓   |
-| Regions (Movie) | ✗   | ✓   |
-| Region (Show) | ✗   | ✓   |
-| Continents (Movie) | ✗   | ✓   |
-| Continents (Show) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Countries (Movie) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Countries (Show) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Regions (Movie) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Region (Show) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Continents (Movie) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Continents (Show) | ✗   | ✓   |
 |     |     |     |
 | **Media** |     |     |
-| Aspect Ratio | ✗   | ✓   |
-| Resolutions | ✗   | ✓   |
-| Audio Languages | ✗   | ✓   |
-| Subtitle Languages | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Aspect Ratio | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Resolutions | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Audio Languages | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Subtitle Languages | ✗   | ✓   |
 |     |     |     |
 | **People** |     |     |
-| Actors | ✗   | ✓   |
-| Directors | ✗   | ✓   |
-| Producers | ✗   | ✓   |
-| Writers | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Actors | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Directors | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Producers | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Writers | ✗   | ✓   |
 |     |     |     |
 | **Production** |     |     |
-| Networks | ✗   | ✓   |
-| Streaming | ✗   | ✓   |
-| Studios | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Networks | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Streaming | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Studios | ✗   | ✓   |
 |     |     |     |
 | **Time** |     |     |
-| Seasonal (Customizable) | ✗   | ✓   |
-| Years | ✗   | ✓   |
-| Decades (Movie) | ✗   | ✓   |
-| Decades (Show) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Seasonal (Customizable) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Years | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Decades (Movie) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Decades (Show) | ✗   | ✓   |
 |     |     |     |
 | **Award (Kometa Default** |     |     |
-| Cannes Film Festival Awards | ✗   | ✓   |
-| César Awards | ✗   | ✓   |
-| Critics Choice Awards | ✗   | ✓   |
-| Emmy Awards | ✗   | ✓   |
-| Golden Globe Awards | ✗   | ✓   |
-| Independent Spirit Awards | ✗   | ✓   |
-| National Film Registry | ✗   | ✓   |
-| People's Choice Awards | ✗   | ✓   |
-| Razzie Awards | ✗   | ✓   |
-| Screen Actors Guild Awards | ✗   | ✓   |
-| Sundance Film Festival Awards | ✗   | ✓   |
-| Toronto International Film Festival | ✗   | ✓   |
-| Venice Film Festival Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Cannes Film Festival Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- César Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Critics Choice Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Emmy Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Golden Globe Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Independent Spirit Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- National Film Registry | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- People's Choice Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Razzie Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Screen Actors Guild Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Sundance Film Festival Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Toronto International Film Festival | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Venice Film Festival Awards | ✗   | ✓   |
 |     |     |     |
 | **TMDb Standard** |     |     |
-| Custom Collection/List | ✓   | ✓   |
-| Random List | ✓   | ✗   |
-| Company | ✗   | ✓   |
-| Keyword | ✗   | ✓   |
-| Movie | ✗   | ✓   |
-| Network | ✗   | ✓   |
-| Show | ✗   | ✓   |
-| Franchise | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Custom Collection/List | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Random List | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Company | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Keyword | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Movie | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Network | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Show | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Franchise | ✓   | ✓   |
 |     |     |     |
 | **TMDb Chart** |     |     |
-| Airing Today | ✗   | ✓   |
-| Now Playing | ✗   | ✓   |
-| On The Air | ✗   | ✓   |
-| Popular | ✓   | ✓   |
-| Top Rated | ✓   | ✓   |
-| Trending Daily | ✓   | ✓   |
-| Trending Weekly | ✓   | ✓   |
-| Upcoming/Coming Soon | ✓   | ✓<br/>Does not compare results with Arrs |
+| &nbsp;&nbsp;&nbsp;- Airing Today | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Now Playing | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- On The Air | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Popular | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Rated | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Trending Daily | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Trending Weekly | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Upcoming/Coming Soon | ✓   | ✓<br/>Does not compare<br/> results with Arrs |
 |     |     |     |
 | **TMDb Discover** |     |     |
-| Movie | ✗   | ✓   |
-| Show | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Movie | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Show | ✗   | ✓   |
 |     |     |     |
 | **TMDb People** |     |     |
-| Actor | ✗   | ✓   |
-| Crew | ✗   | ✓   |
-| Director | ✗   | ✓   |
-| Producer | ✗   | ✓   |
-| Writer | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Actor | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Crew | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Director | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Producer | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Writer | ✗   | ✓   |
 |     |     |     |
 | **TVDb** |     |     |
-| List | ✗   | ✓   |
-| Movie | ✗   | ✓   |
-| Show | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- List | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Movie | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Show | ✗   | ✓   |
 |     |     |     |
 | **IMDb Award** |     |     |
-| Academy Awards, USA | ✗   | ✓   |
-| Berlin International Film Festival | ✗   | ✓   |
-| BAFTA Awards | ✗   | ✓   |
-| Critics Choice Awards | ✗   | ✓   |
-| Cannes Film Festival | ✗   | ✓   |
-| César Awards, France | ✗   | ✓   |
-| Primetime Emmy Awards | ✗   | ✓   |
-| Filmfare Awards | ✗   | ✓   |
-| German Film Awards | ✗   | ✓   |
-| Golden Globes, USA | ✗   | ✓   |
-| Film Independent Spirit Awards | ✗   | ✓   |
-| Awards of the International Indian Film Academy (IIFA) | ✗   | ✓   |
-| Zee Cine Awards | ✗   | ✓   |
-| National Film Awards, India | ✗   | ✓   |
-| National Film Preservation Board, USA | ✗   | ✓   |
-| People's Choice Awards, USA | v   | ✓   |
-| Razzie Awards | ✗   | ✓   |
-| Screen Actors Guild Awards | ✗   | ✓   |
-| Sundance Film Festival | ✗   | ✓   |
-| Toronto International Film Festival | v   | ✓   |
-| Venice Film Festival | ✗   | ✓   |
-| Indian Television Academy Awards, India | ✗   | ✓   |
-| Zee Rishtey Awards | ✗   | ✓   |
-| Nickelodeon Kids' Choice Awards, India | ✗   | ✓   |
-| Indian Film Festival Of Melbourne | ✗   | ✓   |
-| Filmfare OTT Awards | ✗   | ✓   |
-| Critics’ Choice Shorts and Series Awards, India | ✗   | ✓   |
-| Iconic Gold Awards | ✗   | ✓   |
-| Bollywood Film Journalist Awards | ✗   | ✓   |
-| International Iconic Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Academy Awards, USA | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Berlin International Film Festival | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- BAFTA Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Critics Choice Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Cannes Film Festival | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- César Awards, France | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Primetime Emmy Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Filmfare Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- German Film Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Golden Globes, USA | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Film Independent Spirit Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Awards of the International <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indian Film Academy (IIFA) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Zee Cine Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- National Film Awards, India | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- National Film Preservation Board, USA | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- People's Choice Awards, USA | v   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Razzie Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Screen Actors Guild Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Sundance Film Festival | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Toronto International Film Festival | v   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Venice Film Festival | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Indian Television Academy <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Awards, India | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Zee Rishtey Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Nickelodeon Kids' Choice <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Awards, India | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Indian Film Festival Of Melbourne | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Filmfare OTT Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Critics’ Choice Shorts and <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Series Awards, India | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Iconic Gold Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Bollywood Film Journalist Awards | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- International Iconic Awards | ✗   | ✓   |
 |     |     |     |
 | **IMDb Chart** |     |     |
-| Box Office Movies | ✓   | ✓   |
-| Most Popular Movies | ✓   | ✓   |
-| Top 250 Movies | ✓   | ✓   |
-| Top Rated English Movies | ✗   | ✓   |
-| Most Popular TV Shows | ✓   | ✓   |
-| Top 250 TV Shows | ✓   | ✓   |
-| Lowest Rated Movies | ✗   | ✓   |
-| Top Rated Indian Movies | ✗   | ✓   |
-| Top Rated Tamil Movies | ✗   | ✓   |
-| Top Rated Telugu Movies | ✗   | ✓   |
-| Top Rated Malayalam Movies | ✗   | ✓   |
-| Trending Indian Movies & Shows | ✗   | ✓   |
-| Trending Tamil Movies | ✗   | ✓   |
-| Trending Telugu Movies | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Box Office Movies | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Most Popular Movies | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top 250 Movies | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Rated English Movies | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Most Popular TV Shows | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top 250 TV Shows | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Lowest Rated Movies | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Rated Indian Movies | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Rated Tamil Movies | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Rated Telugu Movies | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Rated Malayalam Movies | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Trending Indian Movies & Shows | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Trending Tamil Movies | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Trending Telugu Movies | ✗   | ✓   |
 |     |     |     |
 | **IMDb ID** | ✗   | ✓   |
 |     |     |     |
-| **IMDb List** | ✗   | ✓<br/>Can no longer use urls that start with<br/> "https://www.imdb.com/search/ or<br/> https://www.imdb.com/filmosearch/" <br/> Must use IMDb Search Builder |
+| **IMDb List** | ✗   | ✓<br/>Can no longer use<br/> /search/ or /filmosearch/ <br/>URL's. Must use <br/>IMDb Search Builder |
 |     |     |     |
-| **<u>IMDb Search <br/>(Attributes not listed.<br/> i.e. is, not, any, winning, gte, lte, before, after)</u>** |     |
-| title | ✗   | ✓   |
-| type | ✗   | ✓   |
-| release | ✗   | ✓   |
-| rating | ✗   | ✓   |
-| votes | ✗   | ✓   |
-| genre | ✗   | ✓   |
-| interests | ✗   | ✓   |
-| event | ✗   | ✓   |
-| imdb_top | ✗   | ✓   |
-| imdb_bottom | ✗   | ✓   |
-| topic | ✗   | ✓   |
-| alternate_version | ✗   | ✓   |
-| crazy_credit | ✗   | ✓   |
-| location | ✗   | ✓   |
-| goof | ✗   | ✓   |
-| plot | ✗   | ✓   |
-| quote | ✗   | ✓   |
-| soundtrack | ✗   | ✓   |
-| trivia | ✗   | ✓   |
-| company | ✗   | ✓   |
-| content_rating | ✗   | ✓   |
-| country | ✗   | ✓   |
-| keyword | ✗   | ✓   |
-| series | ✗   | ✓   |
-| list | ✗   | ✓   |
-| language | ✗   | ✓   |
-| popularity | ✗   | ✓   |
-| cast | ✗   | ✓   |
-| character | ✗   | ✓   |
-| runtime | ✗   | ✓   |
-| adult | ✗   | ✓   |
+| **<u>IMDb Search <br/>(Attributes not listed. i.e. is, not, any,<br/> winning, gte, lte, before, after)</u>** |     |
+| &nbsp;&nbsp;&nbsp;- title | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- type | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- release | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- rating | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- votes | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- genre | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- interests | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- event | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- imdb_top | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- imdb_bottom | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- topic | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- alternate_version | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- crazy_credit | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- location | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- goof | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- plot | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- quote | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- soundtrack | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- trivia | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- company | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- content_rating | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- country | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- keyword | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- series | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- list | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- language | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- popularity | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- cast | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- character | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- runtime | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- adult | ✗   | ✓   |
 |     |     |     |
 | **IMDb Watchlist** | ✗   | ✓   |
 |     |     |     |
 | **IMDb Random List** | ✓   | ✗   |
 |     |     |     |
 | **Trakt** | ✓   | ✓   |
-| Box Office |     | ✓   |
-| Recommendations |     |     |
+| &nbsp;&nbsp;&nbsp;- Box Office |     | ✓   |
+| &nbsp;&nbsp;&nbsp;- Recommendations |     |     |
 |     |     |     |
-| **Trakt Chart <br/> (Attributes not listed<br/> i.e. by genre, votes, statuses, ratings)** |     |     |
-| Trending Now | ✓   | ✓   |
-| Popular | ✓   | ✓   |
-| Most Played | ✓   | ✗   |
-| Most Watched | ✓   | ✓   |
-| Most Collected | ✓   | ✓   |
-| Most Favorited | ✓   | ✗   |
-| Box Office | ✓   | ✗   |
-| Random | ✓   | ✗   |
-| Recommended | ✗   | ✓   |
+| **Trakt Chart <br/> (Attributes not listed i.e. by genre,<br/> votes, statuses, ratings)** |     |     |
+| &nbsp;&nbsp;&nbsp;- Trending Now | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Popular | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Most Played | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Most Watched | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Most Collected | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Most Favorited | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Box Office | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Random | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Recommended | ✗   | ✓   |
 |     |     |     |
 | **Trakt User Lists** |     |     |
-| Watchlist | ?   | ✓   |
-| Favorites | ?   | ✓   |
-| Watched | ?   | ✓   |
-| Collection | ?   | ✓   |
-| Custom | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Watchlist | ?   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Favorites | ?   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Watched | ?   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Collection | ?   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Custom | ✓   | ✓   |
 |     |     |     |
 | **Letterboxd** |     |     |
-| List | ✓   | ✓   |
-| Random List | ✓   | ✗   |
-| Search | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- List | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Random List | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Search | ✗   | ✓   |
 |     |     |     |
 | **Overseerr** |     |     |
-| User Requests (Exc. Server Owner) | ✓   | ✗   |
-| Server Owner Requests | ✓   | ✗   |
-| All Requests | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- User Requests (Exc. Server Owner) | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Server Owner Requests | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- All Requests | ✓   | ✗   |
 |     |     |     |
 | **MDBList** |     |     |
-| Custom | ✓   | ✓   |
-| Network Originals | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Custom | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Network Originals | ✓   | ✓   |
 |     |     |     |
 | **AniList** |     |     |
-| Custom/User List | ✓   | ✓   |
-| ID  | ✗   | ✓   |
-| Popular | ✓   | ✓   |
-| Relations | ✗   | ✓   |
-| Search | ✗   | ✓   |
-| Studio | ✗   | ✓   |
-| Top Rated | ✓   | ✓   |
-| Trending | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Custom/User List | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- ID  | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Popular | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Relations | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Search | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Studio | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Rated | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Trending | ✓   | ✓   |
 |     |     |     |
 | **MyAnimeList** |     |     |
-| Top Airing | ✓   | ✓   |
-| Top All | ✓?  | ✓   |
-| Most Favorite | ✓   | ✓   |
-| ID  | ✗   | ✓   |
-| Top Movie | ✓   | ✓   |
-| Top OVA | ✓   | ✓   |
-| Top Popular | ✓   | ✓   |
-| Search | ✗   | ✓   |
-| Season | ✗   | ✓   |
-| Top Special | ✓   | ✓   |
-| Suggested | ✗   | ✓   |
-| Top TV | ✓   | ✓   |
-| Upcoming | ✗   | ✓   |
-| UserList | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Airing | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top All | ✓?  | ✓   |
+| &nbsp;&nbsp;&nbsp;- Most Favorite | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- ID  | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Movie | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top OVA | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Popular | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Search | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Season | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top Special | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Suggested | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Top TV | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Upcoming | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- UserList | ✗   | ✓   |
 |     |     |     |
 | **AniDB** |     |     |
-| ID  | ✗   | ✓   |
-| Popular | ✗   | ✓   |
-| Relation | ✗   | ✓   |
-| Tag | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- ID  | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Popular | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Relation | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Tag | ✗   | ✓   |
 |     |     |     |
 | **Flix Patrol** |     |     |
-| Networks Top 10 | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Networks Top 10 | ✓   | ✗   |
 |     |     |     |
 | **ICheckMovies** |     |     |
-| List | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- List | ✗   | ✓   |
 |     |     |     |
 | **BoxOfficeMojo** |     |     |
-| Domestic | ✗   | ✓   |
-| International | ✗   | ✓   |
-| World | ✗   | ✓   |
-| All Time | ✗   | ✓   |
-| Never | ✗   | ✓   |
-| Record | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Domestic | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- International | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- World | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- All Time | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Never | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Record | ✗   | ✓   |
 |     |     |     |
 | **Reciperr** |     |     |
-| List | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- List | ✗   | ✓   |
 |     |     |     |
 | **StevenLu** |     |     |
-| Popular | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Popular | ✗   | ✓   |
 |     |     |     |
 | **Playlists** | ✗   | ✓   |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
 
 ## **<u>Overlay Comparison</u>**
 
-| <u>Overlays</u> | <u>Agregarr</u> | <u>Kometa</u> |
-| --- | --- | --- |
+| <u>Overlays</u> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Agregarr</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Kometa</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| --- |:---:|:---:|
 |     |     |     |
 | **Chart - Ribbon** |     |     |
-| Oscars Best Picture | ✗   | ✓   |
-| Oscars Best Director | ✗   | ✓   |
-| Golden Globe Winner | ✗   | ✓   |
-| Golden Globe Director | ✗   | ✓   |
-| BAFTA Winner | ✗   | ✓   |
-| Cannes Winner | ✗   | ✓   |
-| Berlinale Winner | ✗   | ✓   |
-| Venice Winner | ✗   | ✓   |
-| Sundance Winner | ✗   | ✓   |
-| Emmys Winner | ✗   | ✓   |
-| Critic's Choice Winner | ✗   | ✓   |
-| Independent Spirit Award Winner | ✗   | ✓   |
-| César Winner | ✗   | ✓   |
-| IMDb Top 250 | ✗   | ✓   |
-| Letterboxd Top 250 | ✗   | ✓   |
-| Rotten Tomatoes Verified Hot | ✗   | ✓   |
-| Rotten Tomatoes Certified Fresh | ✗   | ✓   |
-| Metacritic Must See | ✗   | ✓   |
-| Common Sense Selection | ✗   | ✓   |
-| Razzies Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Oscars Best Picture | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Oscars Best Director | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Golden Globe Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Golden Globe Director | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- BAFTA Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Cannes Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Berlinale Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Venice Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Sundance Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Emmys Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Critic's Choice Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Independent Spirit Award Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- César Winner | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- IMDb Top 250 | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Letterboxd Top 250 | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Rotten Tomatoes Verified Hot | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Rotten Tomatoes Certified Fresh | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Metacritic Must See | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Common Sense Selection | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Razzies Winner | ✗   | ✓   |
 |     |     |     |
 | **Content** |     |     |
-| Episode Info | ✗   | ✓   |
-| MediaStinger | ✗   | ✓   |
-| Ratings (Critic, Audience, User) | Limited (IMDb & Rotten Tomatoes) | ✓   |
-| Status | Comprehensive | Limited |
+| &nbsp;&nbsp;&nbsp;- Episode Info | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- MediaStinger | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Ratings <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Critic, Audience, User) | Limited (IMDb & <br/>Rotten Tomatoes) | ✓   |
+| &nbsp;&nbsp;&nbsp;- Status | Comprehensive | Limited |
 |     |     |     |
 | **Coming Soon (Status Expanded)** |     |     |
-| Coming Soon | ✓   | ✗   |
-| Request Needed | ✓   | ✗   |
-| Returning Soon | ✓   | ✓   |
-| Coming Soon - Far Out | ✓   | ✗   |
-| Far Future Release Date | ✓   | ✗   |
-| Countdown (Monitored) | ✓   | ✗   |
-| Releasing Tomorrow (Monitored) | ✓   | ✗   |
-| Releasing Today (Monitored) | ✓   | ✗   |
-| Awaiting Download | ✓   | ✗   |
-| New Release | ✓   | ✗   |
-| Countdown (Unmonitored) | ✓   | ✗   |
-| Releasing Tomorrow (Unmonitored) | ✓   | ✗   |
-| Releasing Today (Unmonitored) | ✓   | ✗   |
-| Released Days Ago (Unmonitored) | ✓   | ✗   |
-| Airing | ✗   | ✓   |
-| Cancelled | ✗   | ✓   |
-| Ended | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Coming Soon | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Request Needed | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Returning Soon | ✓   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Coming Soon - Far Out | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Far Future Release Date | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Countdown (Monitored) | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Releasing Tomorrow (Monitored) | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Releasing Today (Monitored) | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Awaiting Download | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- New Release | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Countdown (Unmonitored) | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Releasing Tomorrow (Unmonitored) | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Releasing Today (Unmonitored) | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Released Days Ago (Unmonitored) | ✓   | ✗   |
+| &nbsp;&nbsp;&nbsp;- Airing | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Cancelled | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Ended | ✗   | ✓   |
 |     |     |     |
 | **Content Rating** |     |     |
-| US Content Ratings (Movie) | ✗   | ✓   |
-| US Content Ratings (Show) | ✗   | ✓   |
-| UK Content Ratings | ✗   | ✓   |
-| DE Content Ratings | ✗   | ✓   |
-| AU Content Ratings | ✗   | ✓   |
-| NZ Content Ratings | ✗   | ✓   |
-| Common Sense Age Ratings | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- US Content Ratings (Movie) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- US Content Ratings (Show) | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- UK Content Ratings | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- DE Content Ratings | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- AU Content Ratings | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- NZ Content Ratings | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Common Sense Age Ratings | ✗   | ✓   |
 |     |     |     |
 | **Media** |     |     |
-| Aspect Ratio | ✗   | ✓   |
-| Audio Codec | ✗   | ✓   |
-| Audio/Subtitle Language Count | ✗   | ✓   |
-| Audio/Subtitle Language Flags | ✗   | ✓   |
-| Resolution/Edition | Limited (4k Only) | ✓   |
-| Runtimes | ✗   | ✓   |
-| Versions | ✗   | ✓   |
-| Video Format | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Aspect Ratio | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Audio Codec | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Audio/Subtitle Language Count | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Audio/Subtitle Language Flags | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Resolution/Edition | Limited (4k Only) | ✓   |
+| &nbsp;&nbsp;&nbsp;- Runtimes | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Versions | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Video Format | ✗   | ✓   |
 |     |     |     |
 | **Production** |     |     |
-| Networks | ✗   | ✓   |
-| Streaming | ✗   | ✓   |
-| Studios | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Networks | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Streaming | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Studios | ✗   | ✓   |
 |     |     |     |
 | **Utility** |     |     |
-| Direct Play Only | ✗   | ✓   |
+| &nbsp;&nbsp;&nbsp;- Direct Play Only | ✗   | ✓   |
