@@ -11,6 +11,8 @@ Without proper volume mounting, Agregarr cannot write to your media folders and 
 
 You first need to mount your volumes in your docker-compose.yml file, replacing the paths to your actual paths (see below).
 
+It is recommended to use separate folders for placeholder files, and add these to your Plex Library, but not to Radarr/Sonarr.
+
 ```yaml title="docker-compose.yaml"
 services:
   agregarr:
@@ -23,12 +25,12 @@ services:
       // highlight-start
       # Placeholder paths
       # Linux/Mac: 
-      - /path/to/movies:/data/movies # Change /path/to/movies to your actual movies folder path
-      - /path/to/tv:/data/tv # Change /path/to/tv to your actual tv folder path
+      - /path/to/placeholders/movies:/data/movies # Change /path/to/placeholders/movies to your actual placeholders movies folder path
+      - /path/to/placeholders/tv:/data/tv # Change /path/to/placeholders/tv to your actual placeholders tv folder path
 
       # Windows:
-      - E:\media\movies:/data/movies # Change E:\media\movies to your actual movies folder path
-      - E:\media\tv:/data/tv # Change E:\media\tv to your actual tv folder path
+      - E:\media\placeholders\movies:/data/movies # Change E:\media\placeholders\movies to your actual placeholders movies folder path
+      - E:\media\placeholders\tv:/data/tv # Change E:\media\placeholders\tv to your actual placeholders tv folder path
       // highlight-end
     ports:
       - 7171:7171
@@ -43,17 +45,17 @@ Docker fundamentally runs each app in 'containers', this is an isolated environm
 
 We do this by mounting 'volumes'. A volume in your `docker-compose.yml` file looks like
 
-`- /mnt/media/movies:data/movies`  
+`- /mnt/media/placeholders/movies:data/movies`  
   or for Windows  
-`- E:\media\movies:data/movies`  
+`- E:\media\placeholders\movies:data/movies`  
 
 Where it is made up of two parts divided by the `:`
 
-The first part `E:\media\movies` is your actual path in your local machine, this is what you would normally browse to in your computers file explorer. 
+The first part `E:\media\placeholders\movies` is your actual path in your local machine, this is what you would normally browse to in your computers file explorer. 
 
-The second part `data/movies` is the containers path, which is what the container can see. When we mount a volume, all we are doing is telling the container that `/data/movies` is actually `E:\media\movies`. You can name the second part anything you want, for example
+The second part `data/movies` is the containers path, which is what the container can see. When we mount a volume, all we are doing is telling the container that `/data/movies` is actually `E:\media\placeholders\movies`. You can name the second part anything you want, for example
 
-`- E:\media\movies:/banana`  
-`- E:\media\tv:/orange/house`
+`- E:\media\placeholders\movies:/banana`  
+`- E:\media\placeholders\tv:/orange/house`
 
 is perfectly valid. You would then in Agregarr under Settings -> Downloads -> Placeholders Root Folder select `/banana` as your movies folder, and `/orange/house` as your tv folder.
