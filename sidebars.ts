@@ -30,6 +30,11 @@ const sidebars: SidebarsConfig = {
       id: 'creating-a-collection',
       label: 'Creating a Collection',
     },
+    {
+      type: 'doc',
+      id: 'placeholder-volumes',
+      label: 'Placeholder Docker Volumes',
+    },
   ],
 
   // Main documentation sidebar

@@ -17,7 +17,23 @@ services:
     image: agregarr/agregarr:latest
     container_name: agregarr
     volumes:
-      - /path/to/config:/app/config # Change to your config directory
+      - /path/to/config:/app/config # Change /path/to/config to your actual config path
+      # Linux/Mac: - /mnt/serverdata/configs/agregarr:/app/config
+      # Windows:   - C:\serverdata\configs\agregarr:/app/config
+
+      # Optional: For Coming Soon/Placeholder feature
+      - /path/to/placeholder/movies:/data/movies
+      - /path/to/placeholder/tv:/data/tv
+      # Linux/Mac:
+      # - /mnt/media/movie-placeholders:/data/movies
+      # - /mnt/media/tv-placeholders:/data/tv
+      # Windows:
+      # - E:\media\movie-placeholders:/data/movies
+      # - E:\media\tv-placeholders:/data/tv
+
+      # And then select your root folders in Settings -> Downloads
+    environment:
+      - TZ=Pacific/Auckland # Set to your local timezone for accurate poster overlay release dates/countdowns - see 'TZ Identifier' column here https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
     ports:
       - 7171:7171
     restart: unless-stopped
@@ -29,6 +45,8 @@ Change `/path/to/config` to your actual config directory, otherwise your setting
 Examples:
 - Linux/macOS: `- /home/username/serverdata/configs/agregarr:/app/config`
 - Windows: `- C:\serverdata\configs\agregarr:/app/config`
+
+For further information on placeholder volume setup, see [Placeholder Volumes](/docs/placeholder-volumes)
 :::
 
 Save the file as `docker-compose.yml`, using our above examples:

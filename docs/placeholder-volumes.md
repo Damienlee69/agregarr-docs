@@ -32,6 +32,8 @@ services:
       - E:\media\placeholders\movies:/data/movies # Change E:\media\placeholders\movies to your actual placeholders movies folder path
       - E:\media\placeholders\tv:/data/tv # Change E:\media\placeholders\tv to your actual placeholders tv folder path
       // highlight-end
+    environment:
+      - TZ=Pacific/Auckland # Set to your local timezone for accurate poster overlay release dates/countdowns - see 'TZ Identifier' column here https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
     ports:
       - 7171:7171
     restart: unless-stopped
