@@ -485,7 +485,7 @@ For further information on either application please visit the respective links 
 | &nbsp;&nbsp;&nbsp;- Direct Play Only | ✗   | ✓   |
 | &nbsp;&nbsp;&nbsp;- Placeholder Overlay | ✓   | ✗   |
 
-## **<u>Other Comparison</u>**
+## **<u>Other Comparisons</u>**
 
 | <u>Additional Functions</u> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Agregarr</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Kometa</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | --- |:---:|:---:|
@@ -496,9 +496,8 @@ For further information on either application please visit the respective links 
 | &nbsp;&nbsp;&nbsp;- Season Posters | ✗   | ✓   |
 | &nbsp;&nbsp;&nbsp;- Episode Title Cards | ✗   | ✓   |
 | &nbsp;&nbsp;&nbsp;- Album Art | ✗   | ✓   |
-
+|     |     |     |
 | **Grab Missing Media/Add to Radarr** |     |     |
-
 | &nbsp;&nbsp;&nbsp;- Add Missing (True/False) | ✓   | ✓   |
 | &nbsp;&nbsp;&nbsp;- Override Existing (True/False) | ✗   | ✓   |
 | &nbsp;&nbsp;&nbsp;- Override Upgrade Existing (True/False) | ✗   | ✓   |
@@ -521,9 +520,8 @@ For further information on either application please visit the respective links 
 | &nbsp;&nbsp;&nbsp;- Country Filter | ✓   | ✗   |
 | &nbsp;&nbsp;&nbsp;- Language Filter | ✓   | ✗   |
 | &nbsp;&nbsp;&nbsp;- Download Option (Arr or Overseer) | ✓   | ✗   |
-
+|     |     |     |
 | **Grab Missing Media/Add to Sonarr** |     |     |
-
 | &nbsp;&nbsp;&nbsp;- Add Missing (True/False) | ✓   | ✓   |
 | &nbsp;&nbsp;&nbsp;- Override Existing (True/False) | ✗   | ✓   |
 | &nbsp;&nbsp;&nbsp;- Override Upgrade Existing (True/False) | ✗   | ✓   |
@@ -550,7 +548,7 @@ For further information on either application please visit the respective links 
 | &nbsp;&nbsp;&nbsp;- Country Filter | ✓   | ✗   |
 | &nbsp;&nbsp;&nbsp;- Language Filter | ✓   | ✗   |
 | &nbsp;&nbsp;&nbsp;- Download Option (Arr or Overseer) | ✓   | ✗   |
-
+|     |     |     |
 | **Preroll Managment** |     |     |
 | &nbsp;&nbsp;&nbsp;- Collection Builder | ✗   | ✓   |
 | &nbsp;&nbsp;&nbsp;- Multi-range Date Scheduling | ✗   | ✓   |
